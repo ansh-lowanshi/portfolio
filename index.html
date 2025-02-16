@@ -1,64 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ansh Lowanshi | Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ansh Lowanshi Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Using Playfair Display from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <div class="container">
-            <h1>Ansh Lowanshi</h1>
-            <p>B.Tech in Computer Science | Aspiring Software Developer</p>
-        </div>
-    </header>
-
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <p>I am a Computer Science student at the Indian Institute of Information Technology Kota, passionate about
-            software development. My hobbies are nature photography, cycling. I love exploring new technologies and creating impactful
-            projects.</p>
-    </section>
-
-    <section id="projects" class="container">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3><a href="https://github.com/ansh-lowanshi/to-do-list" target="_blank">To-Do List Web App</a></h3>
-            <p>Developed a dynamic To-Do List web application using HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="project">
-            <h3><a href="https://github.com/ansh-lowanshi/expense-tracker" target="_blank">Expense Tracker</a></h3>
-            <p>Created a web application for tracking monthly expenses using HTML, CSS, and JavaScript.</p>
-        </div>
-        <div class="project">
-            <h3><a href="#" target="_blank">Personal Portfolio Website</a></h3>
-            <p>A website that showcases my personal information, skills, and projects using HTML and CSS.</p>
-        </div>
-    </section>
-
-    <section id="skills" class="container">
-        <h2>Skills</h2>
-        <ul>
-            <li>C, C++, Python, Java, HTML/CSS, JavaScript, Dart</li>
-            <li>VS Code, Pycharm, Google Colab</li>
-            <li>GitHub, Flutter</li>
-        </ul>
-    </section>
-
-    <section id="contact" class="container">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:lowanshiansh@gmail.com">lowanshiansh@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/Ansh-Lowanshi" target="_blank">linkedin.com/in/Ansh-Lowanshi</a>
+  <!-- Header (non-sticky) -->
+  <!-- <header class="header">
+    <div class="header-content">
+      <img src="images/dash_1.png" alt="Dash Logo" class="dash-logo">
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#coursework">Coursework</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#extracurricular">Extracurricular</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+   -->
+  <!-- Home Section (Enhanced Intro) -->
+  <section id="home" class="section home-section">
+    <div class="hero-overlay"></div>
+    <div class="container home-content">
+      <div class="profile">
+        <img src="images/your_photo.jpg" alt="Ansh Lowanshi" class="profile-pic">
+        <h1 class="your-name">Ansh Lowanshi</h1>
+        <p class="tagline">Crafting Beautiful Apps with Flutter</p>
+        <p class="contact-info">
+          <!-- +91 7828479491  -->
+          <!-- <a href="mailto:lowanshiansh@gmail.com">lowanshiansh@gmail.com</a><br> -->
+          <!-- <a href="https://linkedin.com/in/Ansh-Lowanshi" target="_blank">LinkedIn</a> • 
+          <a href="https://github.com/ansh-lownanshi" target="_blank">GitHub</a> -->
         </p>
-        <p>GitHub: <a href="https://github.com/ansh-lowanshi" target="_blank">github.com/ansh-lowanshi</a></p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Ansh Lowanshi. All rights reserved.</p>
-    </footer>
+        <!-- <a href="#projects" class="cta-button">See My Work</a> -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Section -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate Flutter app developer currently pursuing a Bachelor of Technology in Computer Science at the Indian Institute of Information Technology, Kota. I love building robust, user-friendly apps and continually enhancing my skills with every project.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Skills Section -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <h2>Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><p><strong>Dart</strong></p></div>
+        <div class="skill-card"><p><strong>C</strong></p></div>
+        <div class="skill-card"><p><strong>C++</strong></p></div>
+        <div class="skill-card"><p><strong>Python</strong></p></div>
+        <div class="skill-card"><p><strong>HTML</strong></p></div>
+        <div class="skill-card"><p><strong>CSS</strong></p></div>
+        <div class="skill-card"><p><strong>JavaScript</strong></p></div>
+        <div class="skill-card"><p><strong>Flutter</strong></p></div>
+        <div class="skill-card"><p><strong>Firebase</strong></p></div>
+        <div class="skill-card"><p><strong>REST APIs</strong></p></div>
+        <div class="skill-card"><p><strong>Node.js</strong></p></div>
+        <div class="skill-card"><p><strong>Express</strong></p></div>
+        <div class="skill-card"><p><strong>MongoDB</strong></p></div>
+        <div class="skill-card"><p><strong>Google Cloud</strong></p></div>
+        <div class="skill-card"><p><strong>GitHub</strong></p></div>
+        <div class="skill-card"><p><strong>VS Code</strong></p></div>
+        <div class="skill-card"><p><strong>Android Studio</strong></p></div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Coursework Section -->
+  <section id="coursework" class="section coursework-section">
+    <div class="container">
+      <h2>Relevant Coursework</h2>
+      <ul class="coursework-list">
+        <li>Data Structures and Algorithms</li>
+        <li>Object-Oriented Programming</li>
+        <li>Design and Analysis of Algorithms</li>
+        <li>Operating Systems</li>
+        <li>Computer Networks</li>
+        <li>Computer Architecture</li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Projects Section (Carousel with Fade Transition) -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <h2>Projects</h2>
+      <br><br>
+      <div class="carousel">
+        <!-- Slide 1 -->
+        <div class="project-slide active">
+          <div class="project-content">
+            <div class="project-media">
+              <video class="portrait-video" controls>
+                <source src="videos/project1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Weather App | Flutter, Dart</h3>
+              <ul>
+                <li>Displays real-time weather data via robust API integration.</li>
+                <li>Error handling and network resilience reduce crashes by 30%.</li>
+                <li>User-friendly, responsive interface.</li>
+              </ul>
+              <p><a href="https://github.com/ansh-lowanshi/flutter_weather_app" target="_blank">View on GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 2 -->
+        <div class="project-slide">
+          <div class="project-content">
+            <div class="project-media">
+              <video class="portrait-video" controls>
+                <source src="videos/project2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>Mini E-Commerce App | Flutter, Dart</h3>
+              <ul>
+                <li>Shopping app with product details, cart, and checkout.</li>
+                <li>State management overhead reduced by 40% using Riverpod.</li>
+                <li>Responsive UI across 100+ screen sizes.</li>
+              </ul>
+              <p><a href="https://github.com/ansh-lowanshi/mini_shopping_app" target="_blank">View on GitHub</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- Slide 3 -->
+        <div class="project-slide">
+          <div class="project-content">
+            <div class="project-media">
+              <video class="portrait-video" controls>
+                <source src="videos/project3.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div class="project-description">
+              <h3>To-Do List App | Flutter, Dart</h3>
+              <ul>
+                <li>Task management with optimized local storage via Shared Preferences.</li>
+                <li>Efficient design reduces app load time by 30%.</li>
+                <li>Modern Material Design UI.</li>
+              </ul>
+              <p><a href="https://github.com/ansh-lowanshi/flutter-to-do-app" target="_blank">View on GitHub</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Navigation Buttons -->
+      <button class="carousel-button prev">&#10094;</button>
+      <button class="carousel-button next">&#10095;</button>
+      <!-- Carousel Dots -->
+      <div class="carousel-dots">
+         <span class="dot active" data-index="0"></span>
+         <span class="dot" data-index="1"></span>
+         <span class="dot" data-index="2"></span>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Education Section -->
+  <section id="education" class="section academics-section">
+    <div class="container">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <span class="year">2022 - Present</span>
+          <div class="details">
+            <h4>Indian Institute of Information Technology, Kota</h4>
+            <p>Bachelor of Technology in Computer Science | CGPA: 7.48</p>
+          </div>
+        </li>
+        <li>
+          <span class="year">2021</span>
+          <div class="details">
+            <h4>Narmada Valley Academy, Bhopal</h4>
+            <p>Higher Secondary Schooling | Percentage: 85.6%</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Extracurricular Section -->
+  <section id="extracurricular" class="section activities-section">
+    <div class="container">
+      <h2>Leadership & Extracurricular</h2>
+      <ul>
+        <li><strong>Paryavaran Shakti Club (2022 - 2024)</strong> – Active member and photographer at IIIT Kota; contributed to mental health awareness and environmental protection initiatives.</li>
+        <li><strong>NEON Cinematic Club (2023 - 2024)</strong> – Led a team of 5+ members, organized 8+ events, boosted social media engagement by 30%, and coordinated event photography.</li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- Contact Section -->
+  <footer id="contact" class="section contact-section">
+    <div class="container footer-content">
+      <h2>Contact Me</h2>
+      <p>
+        <a href="mailto:lowanshiansh@gmail.com">lowanshiansh@gmail.com</a><br><br>
+        +91 7828479491
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/Ansh-Lowanshi" target="_blank">LinkedIn</a> • 
+        <a href="https://github.com/ansh-lowanshi" target="_blank">GitHub</a>
+      </p>
+      <p>© 2025 Ansh Lowanshi. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <!-- JavaScript for Carousel and Dynamic Height -->
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.project-slide');
+    const dots = document.querySelectorAll('.dot');
+    const carousel = document.querySelector('.carousel');
+    const totalSlides = slides.length;
+    
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+      });
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+      // Set the carousel height to active slide's height on desktop
+      if(window.innerWidth > 768) {
+        const activeSlide = slides[index];
+        carousel.style.height = activeSlide.offsetHeight + "px";
+      } else {
+        carousel.style.height = "auto";
+      }
+    }
+    
+    function nextSlide() {
+      slideIndex = (slideIndex + 1) % totalSlides;
+      showSlide(slideIndex);
+    }
+    
+    function prevSlide() {
+      slideIndex = (slideIndex - 1 + totalSlides) % totalSlides;
+      showSlide(slideIndex);
+    }
+    
+    document.querySelector('.carousel-button.next').addEventListener('click', nextSlide);
+    document.querySelector('.carousel-button.prev').addEventListener('click', prevSlide);
+    
+    dots.forEach(dot => {
+      dot.addEventListener('click', function() {
+        slideIndex = parseInt(this.getAttribute('data-index'));
+        showSlide(slideIndex);
+      });
+    });
+    
+    function initCarousel() {
+      showSlide(slideIndex);
+    }
+    window.addEventListener('load', initCarousel);
+    window.addEventListener('resize', initCarousel);
+    
+    // Intersection Observer for on-scroll animations
+    document.addEventListener('DOMContentLoaded', () => {
+      const sections = document.querySelectorAll('.section');
+      const observerOptions = { threshold: 0.25 };
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+          } else {
+            entry.target.classList.remove('in-view');
+          }
+        });
+      }, observerOptions);
+      sections.forEach(section => observer.observe(section));
+    });
+  </script>
 </body>
-
 </html>
